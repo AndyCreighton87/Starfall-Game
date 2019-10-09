@@ -30,3 +30,11 @@
 *.exe
 *.out
 *.app
+
+.vs/
+Debug/
+Release/
+Starfall/Release/
+Starfall/Debug/
+x64/
+Starfall/x64/

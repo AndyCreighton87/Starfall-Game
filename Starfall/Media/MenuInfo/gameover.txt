@@ -1,0 +1,10 @@
+Media/Textures/MainMenu/mainmenubg.jpg
+Media/Textures/gameover.png
+Media/Fonts/Gameplay.ttf
+255 255 255
+0 0 0
+255 255 0
+0 0 0
+CENTRE_JUSTIFIED
+Try again?
+Exit

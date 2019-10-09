@@ -1,0 +1,16 @@
+Media/Textures/ShipSelect/blink.png
+Media/Textures/ShipSelect/rapidfire.png
+Media/Textures/ShipSelect/shield.png
+Media/Textures/ShipSelect/mine.png
+Media/Textures/ShipSelect/tractorbeam.png
+Media/Textures/ShipSelect/ram.png
+Media/Fonts/Cyberjunkies.ttf
+225 255 0
+225 255 255
+0 0 0
+Blink
+Rapid Fire
+Shield
+Mine
+Tractor Beam
+Ram

@@ -1,0 +1,2 @@
+Media/Textures/MainMenu/mainmenubg.jpg
+Media/Textures/howtoplay.png

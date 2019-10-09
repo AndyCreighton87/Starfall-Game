@@ -1,0 +1,42 @@
+Media/Textures/MainMenu/mainmenubg.jpg
+Media/Textures/ShipSelect/container.png
+Media/Textures/ShipSelect/gnat.png
+Media/Textures/ShipSelect/mantis.png
+Media/Textures/ShipSelect/tug.png
+Media/Textures/ShipSelect/blink.png
+Media/Textures/ShipSelect/rapidfire.png
+Media/Textures/ShipSelect/shield.png
+Media/Textures/ShipSelect/mine.png
+Media/Textures/ShipSelect/tractorbeam.png
+Media/Textures/ShipSelect/ram.png
+Media/Fonts/Gameplay.ttf
+255 255 255
+0 0 0
+255 255 0
+0 0 0
+CENTRE_JUSTIFIED
+GNAT
+MANTIS
+TUG
+Hull: 80
+Speed: 120
+Hull: 100
+Speed: 100
+Hull: 120
+Speed: 80
+Blink
+Rapid Fire
+Shield
+Mine
+Tractor Beam
+Ram
+Short range teleport
+Pew pew pew
+Defensive frontal shield
+Drops big boom
+Suck enemies in
+Quick frontal ram
+Media/Textures/ShipSelect/comingsoon.png
+GNAT
+MANTIS
+TUG

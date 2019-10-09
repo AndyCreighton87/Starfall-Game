@@ -1,0 +1,12 @@
+Media/Textures/MainMenu/mainmenubg.jpg
+Media/Textures/MainMenu/starfalllogo.png
+Media/Fonts/Gameplay.ttf
+255 255 255
+0 0 0
+255 255 0
+0 0 0
+960 720
+CENTRE_JUSTIFIED
+Play Game
+How To Play
+Exit
