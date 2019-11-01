@@ -1,7 +1,7 @@
 #include "Application.h"
 
 Application::Application(int windowWidth, int windowHeight)
-	: m_window(sf::VideoMode(windowWidth, windowHeight), "STARFALL", sf::Style::Fullscreen)
+	: m_window(sf::VideoMode(windowWidth, windowHeight), "STARFALL")
 	, m_initialised(true)
 	, m_screenWidth(windowWidth)
 	, m_screenHeight(windowHeight)
