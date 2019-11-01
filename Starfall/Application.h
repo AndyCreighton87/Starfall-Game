@@ -20,7 +20,7 @@ class Application :
 	public sf::NonCopyable
 {
 public:
-	Application(int windowWidth, int windowHeight);
+	Application(int windowWidth, int windowHeight, int style);
 	~Application();
 
 	void			run();

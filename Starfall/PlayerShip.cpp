@@ -67,7 +67,9 @@ Bullet* PlayerShip::processEvents(sf::Time& elapsedTime, sf::Transform transform
 	if (leftButtonPressed)
 	{
 		if (!m_usingAbility)
+		{
 			bullet = shoot(elapsedTime);
+		}	
 	}
 
 	m_faceAngle = getRotation();

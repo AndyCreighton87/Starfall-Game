@@ -1,7 +1,7 @@
 #include "Application.h"
 
-Application::Application(int windowWidth, int windowHeight)
-	: m_window(sf::VideoMode(windowWidth, windowHeight), "STARFALL")
+Application::Application(int windowWidth, int windowHeight, int style)
+	: m_window(sf::VideoMode(windowWidth, windowHeight), "STARFALL", style)
 	, m_initialised(true)
 	, m_screenWidth(windowWidth)
 	, m_screenHeight(windowHeight)
@@ -13,7 +13,7 @@ Application::Application(int windowWidth, int windowHeight)
 	, m_pauseMenu("Media/MenuInfo/pause.txt", windowWidth, windowHeight)
 	, m_previousDownKeyPressed(false)
 	, m_previousUpKeyPressed(false)
-	, m_desiredUpdateTime(sf::seconds(1.f / 12000.f))
+	, m_desiredUpdateTime(sf::seconds(1.f / 60.f))
 	, m_timeCounter(sf::seconds(0))
 	, m_FPSCounter(0)
 	, m_gameWorld(windowWidth, windowHeight, &m_window)
@@ -225,14 +225,14 @@ void Application::run()
 		while (timeSinceLastUpdate > m_desiredUpdateTime)
 		{
 			//update application status
-			//update(m_desiredUpdateTime);
+			update(m_desiredUpdateTime);
 
 			//subtract m_desiredUpdateTime from timeSinceLastUpdate
 			timeSinceLastUpdate -= m_desiredUpdateTime;
 		}
 
 		//Calculate FPS
-		update(elapsedTime);
+		//update(elapsedTime);
 
 		render();
 	}
